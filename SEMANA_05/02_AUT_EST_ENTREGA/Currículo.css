@@ -1,0 +1,39 @@
+/*seletores para desktops*/
+@media screen and (max-width: 1128px) {
+	#conteudo{ 
+	   width: 70%;
+	   background:#F00;
+	}
+	#lateral{ 
+	   width: 30%;
+	   background:rgb(151, 151, 26);
+	}
+}
+
+/*seletores para tablets*/
+@media screen and (max-width: 768px) {
+	#conteudo{ 
+	   width: 50%;
+	   background:#F0F;
+	}
+	#lateral{ 
+	   width: 50%;
+	   background:#00f;
+	}
+}
+
+/*seletores para celurares*/
+@media screen and (max-width: 520px) {
+	#conteudo{ 
+	   width: 100%;
+	   background:rgb(76, 12, 12);
+       float: none;
+       height: auto;
+	}
+	#lateral{ 
+	   width: 100%;
+	   background:rgb(118, 118, 24);
+	   float: none;
+       height: auto;
+	}
+}
